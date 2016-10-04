@@ -1,0 +1,47 @@
+{
+  "name": "quehacemos",
+  "version": "0.1.0",
+  "description": "Node server for ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "node-inspector & node --debug-brk server.js",
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha test --recursive"
+  },
+  "dependencies": {
+    "aws-sdk":"latest",
+    "app-module-path": "^1.0.5",
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.1",
+    "cors": "^2.7.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.3",
+    "express-jwt": "^3.3.0",
+    "is-my-json-valid": "^2.13.0",
+    "jwt-simple": "^0.5.0",
+    "mime": "^1.3.4",
+    "nunjucks": "^2.3.0",
+    "pg": "latest",
+    "pwd": "latest"
+  },
+  "engines": {
+    "node": "^5.6.0"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "istanbul": "latest",
+    "mocha": "latest",
+    "sinon": "latest",
+    "sinon-chai": "latest",
+    "eslint": "^2.0.0"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "All rights reserved. Copyright"
+}

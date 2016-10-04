@@ -1,0 +1,7 @@
+{
+  "web-host": "local.qhacemos",
+  "debug-port": 5858,
+  "save-live-edit": true,
+  "preload": true,
+  "hidden": ["node_modules/"]
+}

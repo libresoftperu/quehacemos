@@ -1,0 +1,6 @@
+coverage/*
+node_modules/*
+client/node_modules/*
+vagrant/.vagrant/*
+scripts/deploy-dev/log/*
+.env
